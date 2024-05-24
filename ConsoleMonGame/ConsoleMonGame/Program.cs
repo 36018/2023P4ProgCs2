@@ -7,6 +7,7 @@ namespace ConsoleMonGame
         static void Main(string[] args)
         {
             TestConsoleMonFunctions();
+            TestSkillFunctions();
         }
         static void TestConsoleMonFunctions()
         {
@@ -31,7 +32,7 @@ namespace ConsoleMonGame
             };
             skill.UseOn(targetMon, casterMon);
 
-            Console.WriteLine(targetMon.health == -100);
+            Console.WriteLine(targetMon.health == -150);
 
             Console.WriteLine(casterMon.energy == -20);
         }

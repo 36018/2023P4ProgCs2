@@ -19,10 +19,9 @@ namespace ConsoleMonGame
             health = health - damage;
         }
 
-        internal void DepleteEnergy (int energy)
+        internal void DepleteEnergy(int energy)
         {
             this.energy -= energy;
         }
-
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitOpdracht", "SplitOpdracht\SplitOpdracht.csproj", "{0EBDBC24-BD7C-46D6-9BE4-8D0B0B661B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EBDBC24-BD7C-46D6-9BE4-8D0B0B661B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBDBC24-BD7C-46D6-9BE4-8D0B0B661B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBDBC24-BD7C-46D6-9BE4-8D0B0B661B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBDBC24-BD7C-46D6-9BE4-8D0B0B661B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D33571D-702F-4E6C-A4F6-E5BE4840ECA6}
+	EndGlobalSection
+EndGlobal

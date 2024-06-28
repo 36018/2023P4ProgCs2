@@ -8,11 +8,11 @@ namespace ConsoleMonGame
 {
     internal class ConsoleMon
     {
-        public int health;
-        public int energy;
-        public string name;
-        private List<Skill> skills;
-        internal Element weakness;
+        public int health { get; set; }
+        public int energy { get; set; }
+        public string name { get; set; }
+        public List<Skill> skills { get; set; }
+        internal Element weakness { get; set; }
 
         internal void TakeDamage (int damage)
         {
